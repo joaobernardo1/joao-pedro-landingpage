@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/images/logo.png";
 
-function Navbar() {
+function Header() {
   const [open, setOpen] = useState(false);
 
   const links = [
@@ -53,7 +53,7 @@ function Navbar() {
           {open ? (
             <svg
               viewBox="0 0 24 24"
-              className="h-12 w-12"
+              className="h-12 w-12 z-[60]"
               fill="none"
               stroke="#0A6CF1"
               strokeWidth="2"
@@ -64,7 +64,7 @@ function Navbar() {
           ) : (
             <svg
               viewBox="0 0 24 24"
-              className="h-12 w-12"
+              className="h-12 w-12 z-[60]"
               fill="none"
               stroke="#0A6CF1"
               strokeWidth="2"
@@ -78,7 +78,7 @@ function Navbar() {
 
       {/* Menu Mobile (abre/fecha) */}
       {open && (
-        <div className="shadow-md bg-white md:hidden">
+        <div className="fixed top-0 left-0 right-0 z-50 shadow-md bg-white md:hidden">
           <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-3">
             {links.map((l) => (
               <a
@@ -96,4 +96,4 @@ function Navbar() {
     </header>
   );
 }
-export default Navbar;
+export default Header;

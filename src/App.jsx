@@ -1,8 +1,16 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/Abou";
 
 function App() {
-  return <Navbar />;
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <About />
+    </div>
+  );
 }
 
 export default App;
