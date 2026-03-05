@@ -11,7 +11,7 @@ function Hero() {
           <h1 className="text-[40px] font-semibold tracking-wide text-[#090846] uppercase">
             TREINE COM
           </h1>
-          <h1 className="mt-2 text-[80px] font-extrabold tracking-wide text-[#0A6CF1]">
+          <h1 className="mt-2 text-[78px] font-extrabold tracking-wide text-[#0A6CF1]">
             PROPÓSITO
           </h1>
         </div>
@@ -22,7 +22,7 @@ function Hero() {
           <h1 className="text-[40px] font-semibold tracking-wide text-[#090846] uppercase">
             EVOLUA COM
           </h1>
-          <h1 className="mt-2 text-[80px] font-extrabold tracking-wide text-[#0A6CF1]">
+          <h1 className="mt-2 text-[78px] font-extrabold tracking-wide text-[#0A6CF1]">
             RESULTADOS
           </h1>
         </div>
