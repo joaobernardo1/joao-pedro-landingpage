@@ -16,7 +16,7 @@ function Header() {
   }
 
   return (
-    <header className="w-full bg[#50d71e]">
+    <header className="sticky top-0 z-50 bg-white bg-white z-50 w-full bg[#50d71e]">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         {/* Logo */}
         <a href="#inicio" className="text-lg font-bold">
