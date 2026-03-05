@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
+import About from "./components/About";
 import Hero from "./components/Hero";
-import About from "./components/Abou";
 
 function App() {
   return (
